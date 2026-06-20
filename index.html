@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shuvam Raghuvanshi — FullStack Engineer. Python, React, Angular, Java, PostgreSQL, AWS." />
+  <title>Shuvam Raghuvanshi — FullStack Engineer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">SR</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Shuvam Raghuvanshi</h1>
+      <p class="role">FullStack Engineer</p>
+      <p class="tagline">
+        I design and build end-to-end products — from clean APIs and data models
+        to the interfaces people actually use.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="https://github.com/Shuvam-Raghuvanshi" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h2 class="section-title"><span>01.</span> About</h2>
+      <div class="about-grid">
+        <p>
+          I'm a FullStack Engineer who enjoys owning features across the stack.
+          On the backend I build reliable APIs and services; on the frontend I
+          craft responsive, intuitive web experiences. I care about clean
+          architecture, maintainable code, and shipping things that work.
+        </p>
+        <p>
+          My recent work centers on workflow automation platforms — designing
+          integration layers and building visual flow-building tools that let
+          teams connect systems without writing code.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2 class="section-title"><span>02.</span> Skills</h2>
+      <ul class="skills">
+        <li>Python</li>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Java</li>
+        <li>PostgreSQL</li>
+        <li>AWS</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section-title"><span>03.</span> Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <h3>Integrations Studio</h3>
+          <p>
+            Built the APIs and components that power third-party integrations for
+            workflow automation — enabling external systems to connect into flows
+            cleanly and reliably.
+          </p>
+          <ul class="tags">
+            <li>APIs</li>
+            <li>Components</li>
+            <li>Workflows</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Unified Flow Builder</h3>
+          <p>
+            Designed the APIs and web pages for a visual flow builder, giving
+            users an intuitive interface to assemble and configure automation
+            flows end to end.
+          </p>
+          <ul class="tags">
+            <li>APIs</li>
+            <li>Web UI</li>
+            <li>Flow Builder</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container contact">
+      <h2 class="section-title"><span>04.</span> Contact</h2>
+      <p>
+        Interested in working together or want to know more about my work?
+        Reach out or find me online.
+      </p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:srshuvam68@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/shuvam-raghuvanshi/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn btn-ghost" href="https://github.com/Shuvam-Raghuvanshi" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Shuvam Raghuvanshi · Built with HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
