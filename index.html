@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Shuvam Raghuvanshi — FullStack Engineer. Python, React, Angular, Java, PostgreSQL, AWS." />
-  <title>Shuvam Raghuvanshi — FullStack Engineer</title>
+  <meta name="description" content="Shuvam Raghuvanshi — Full Stack Software Engineer with 4+ years building scalable web apps, REST APIs, and cloud solutions." />
+  <title>Shuvam Raghuvanshi — Full Stack Software Engineer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="style.css" />
@@ -18,8 +18,10 @@
       </button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Personal Projects</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
           <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
@@ -33,14 +35,16 @@
     <section class="hero container">
       <p class="eyebrow">Hello, I'm</p>
       <h1>Shuvam Raghuvanshi</h1>
-      <p class="role">FullStack Engineer</p>
+      <p class="role">Full Stack Software Engineer | IITian</p>
       <p class="tagline">
-        I design and build end-to-end products — from clean APIs and data models
-        to the interfaces people actually use.
+        Result-oriented engineer with 4+ years building scalable, high-performing
+        applications — dynamic web apps, RESTful APIs, and enterprise solutions
+        using modern frameworks and cloud technologies.
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-primary" href="#experience">View Experience</a>
         <a class="btn btn-ghost" href="https://github.com/Shuvam-Raghuvanshi" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/shuvam-raghuvanshi/" target="_blank" rel="noopener">LinkedIn ↗</a>
       </div>
     </section>
 
@@ -49,75 +53,242 @@
       <h2 class="section-title"><span>01.</span> About</h2>
       <div class="about-grid">
         <p>
-          I'm a FullStack Engineer who enjoys owning features across the stack.
-          On the backend I build reliable APIs and services; on the frontend I
-          craft responsive, intuitive web experiences. I care about clean
-          architecture, maintainable code, and shipping things that work.
+          I'm a Full Stack Software Engineer with 4+ years of experience developing
+          scalable and high-performing applications. I build dynamic web apps,
+          RESTful APIs, and enterprise solutions across the stack — from clean data
+          models and services to the interfaces people use every day.
         </p>
         <p>
-          My recent work centers on workflow automation platforms — designing
-          integration layers and building visual flow-building tools that let
-          teams connect systems without writing code.
+          I'm adept at cross-functional collaboration, code optimization, and Agile
+          methodologies, and I enjoy mentoring teammates and raising code quality
+          through reviews and best practices.
         </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section container">
+      <h2 class="section-title"><span>02.</span> Experience</h2>
+      <div class="timeline">
+        <article class="exp">
+          <div class="exp-head">
+            <h3>Software Engineer · Cisco Systems India</h3>
+            <span class="period">Mar 2024 – Present</span>
+          </div>
+          <ul class="exp-list">
+            <li>
+              <strong>Flow Control Design:</strong> Built REST APIs in Python/Django
+              for integrations, nodes, and events, and wrote Python scripts to create
+              integrations. Developed a React 18 + TypeScript UI for a flow-based
+              workflow designer using Recoil state management and GraphQL APIs.
+            </li>
+            <li>
+              <strong>Unified Flow Builder:</strong> Migrated and developed dynamic,
+              responsive pages in Angular 19 (from Angular 13) for Webex Connect,
+              improving performance and UX. Containerized services with Docker and
+              Kubernetes and automated builds via Jenkins CI/CD. Mentored junior
+              developers through task assignment, code reviews, and best practices.
+            </li>
+            <li>
+              <strong>Integrations Studio:</strong> Created RESTful APIs using Spring
+              Boot (migrated 2.1 → 3.2) to enhance scalability. Improved reliability
+              with unit tests (JUnit, Mockito) and Angular test cases, and conducted
+              code reviews for Java and Angular teams.
+            </li>
+          </ul>
+        </article>
+
+        <article class="exp">
+          <div class="exp-head">
+            <h3>Software Engineer · Innominds</h3>
+            <span class="period">Jul 2021 – Mar 2024</span>
+          </div>
+          <ul class="exp-list">
+            <li>
+              <strong>Burst (Cross-Platform App):</strong> Built a cross-platform app
+              integrating a Python/Flask backend with an Angular frontend via Electron.
+              Developed a Flask engine service for back-end processing and created
+              plugins for Adobe Premiere Pro.
+            </li>
+            <li>
+              <strong>HCCC (Livermore Temple Portal):</strong> Developed pages with
+              React and PrimeFaces to display images, videos, and PDFs. Integrated
+              AWS S3 for media storage and Elasticsearch for optimized search.
+            </li>
+            <li>
+              <strong>Unext Learning:</strong> Built responsive Angular 8 pages with
+              Ant Design and SCSS for an assessment app, and designed REST APIs in
+              Spring Boot with comprehensive Swagger documentation.
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section-title"><span>03.</span> Personal Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <h3>Storage Copier</h3>
+          <p>
+            Published Chrome extension to copy localStorage data across tabs and
+            sessions, cutting manual effort between development and local environments.
+          </p>
+          <ul class="tags">
+            <li>Chrome Extension</li>
+            <li>JavaScript</li>
+          </ul>
+          <a class="project-link" href="https://chromewebstore.google.com/detail/storage-copier/akknoanpbojmlhhbeinhjhjichleppai" target="_blank" rel="noopener">View on Chrome Web Store ↗</a>
+        </article>
+
+        <article class="project-card">
+          <h3>URL Changer</h3>
+          <p>
+            Published Chrome extension to modify URL domains and parameters and open
+            customized links in new tabs, streamlining debugging workflows.
+          </p>
+          <ul class="tags">
+            <li>Chrome Extension</li>
+            <li>JavaScript</li>
+          </ul>
+          <a class="project-link" href="https://chromewebstore.google.com/detail/replace-domain-with-local/ekiklcinghghldfiljpoogmfiobhegpj" target="_blank" rel="noopener">View on Chrome Web Store ↗</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Run Script</h3>
+          <p>
+            Published VS Code extension to run package.json scripts directly with a
+            single click, speeding up everyday development.
+          </p>
+          <ul class="tags">
+            <li>VS Code Extension</li>
+            <li>TypeScript</li>
+          </ul>
+          <a class="project-link" href="https://marketplace.visualstudio.com/items?itemName=ShuvamRaghuvanshi.run-package-scripts" target="_blank" rel="noopener">View on VS Code Marketplace ↗</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Quick Terminal Commands</h3>
+          <p>
+            Published VS Code extension to save, organize, and instantly run your
+            most-used terminal commands from a toolbar button — with global and
+            workspace scopes.
+          </p>
+          <ul class="tags">
+            <li>VS Code Extension</li>
+            <li>TypeScript</li>
+          </ul>
+          <a class="project-link" href="https://marketplace.visualstudio.com/items?itemName=ShuvamRaghuvanshi.quick-terminal-commands" target="_blank" rel="noopener">View on VS Code Marketplace ↗</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Server Status Indicator</h3>
+          <p>
+            Published VS Code extension showing colored status bar indicators for
+            running localhost dev servers — workspace-scoped, with per-port colors
+            and a quick-pick server manager.
+          </p>
+          <ul class="tags">
+            <li>VS Code Extension</li>
+            <li>TypeScript</li>
+          </ul>
+          <a class="project-link" href="https://marketplace.visualstudio.com/items?itemName=ShuvamRaghuvanshi.server-status-indicator" target="_blank" rel="noopener">View on VS Code Marketplace ↗</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Handy Prompts</h3>
+          <p>
+            Published VS Code extension to quickly paste reusable prompts into AI
+            chat (Copilot / Cursor) from a status bar button or command palette,
+            with global and workspace scopes.
+          </p>
+          <ul class="tags">
+            <li>VS Code Extension</li>
+            <li>TypeScript</li>
+          </ul>
+          <a class="project-link" href="https://marketplace.visualstudio.com/items?itemName=ShuvamRaghuvanshi.handy-prompts" target="_blank" rel="noopener">View on VS Code Marketplace ↗</a>
+        </article>
       </div>
     </section>
 
     <!-- Skills -->
     <section id="skills" class="section container">
-      <h2 class="section-title"><span>02.</span> Skills</h2>
-      <ul class="skills">
-        <li>Python</li>
-        <li>React</li>
-        <li>Angular</li>
-        <li>Java</li>
-        <li>PostgreSQL</li>
-        <li>AWS</li>
-      </ul>
+      <h2 class="section-title"><span>04.</span> Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <ul class="skills">
+            <li>Python</li><li>JavaScript</li><li>TypeScript</li><li>Java</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks</h4>
+          <ul class="skills">
+            <li>Angular</li><li>React</li><li>Flask</li><li>Spring Boot</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Databases</h4>
+          <ul class="skills">
+            <li>PostgreSQL</li><li>MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Cloud &amp; DevOps</h4>
+          <ul class="skills">
+            <li>AWS (S3, Lambda, API Gateway, CloudWatch, ECS)</li>
+            <li>Docker</li><li>Kubernetes</li><li>Elasticsearch</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Version Control</h4>
+          <ul class="skills">
+            <li>Git</li><li>GitHub</li><li>GitLab</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Tools &amp; Testing</h4>
+          <ul class="skills">
+            <li>Jira</li><li>Electron</li><li>Figma</li>
+            <li>JUnit</li><li>Vitest</li><li>Playwright</li>
+            <li>Angular Testing Library</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="section container">
-      <h2 class="section-title"><span>03.</span> Projects</h2>
-      <div class="projects">
-        <article class="project-card">
-          <h3>Integrations Studio</h3>
-          <p>
-            Built the APIs and components that power third-party integrations for
-            workflow automation — enabling external systems to connect into flows
-            cleanly and reliably.
-          </p>
-          <ul class="tags">
-            <li>APIs</li>
-            <li>Components</li>
-            <li>Workflows</li>
-          </ul>
+    <!-- Education -->
+    <section id="education" class="section container">
+      <h2 class="section-title"><span>05.</span> Education</h2>
+      <div class="education">
+        <article class="edu-card">
+          <div class="exp-head">
+            <h3>M.Tech — Indian Institute of Technology Kharagpur (IIT Kgp)</h3>
+            <span class="period">2019 – 2021</span>
+          </div>
+          <p>CGPA: 8.25 / 10</p>
         </article>
-
-        <article class="project-card">
-          <h3>Unified Flow Builder</h3>
-          <p>
-            Designed the APIs and web pages for a visual flow builder, giving
-            users an intuitive interface to assemble and configure automation
-            flows end to end.
-          </p>
-          <ul class="tags">
-            <li>APIs</li>
-            <li>Web UI</li>
-            <li>Flow Builder</li>
-          </ul>
+        <article class="edu-card">
+          <div class="exp-head">
+            <h3>B.Tech — Jabalpur Engineering College</h3>
+            <span class="period">2013 – 2017</span>
+          </div>
+          <p>CGPA: 7.38 / 10</p>
         </article>
       </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="section container contact">
-      <h2 class="section-title"><span>04.</span> Contact</h2>
+      <h2 class="section-title"><span>06.</span> Contact</h2>
       <p>
         Interested in working together or want to know more about my work?
         Reach out or find me online.
       </p>
       <div class="contact-links">
         <a class="btn btn-primary" href="mailto:srshuvam68@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="tel:+919926506384">+91 99265 06384</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/shuvam-raghuvanshi/" target="_blank" rel="noopener">LinkedIn ↗</a>
         <a class="btn btn-ghost" href="https://github.com/Shuvam-Raghuvanshi" target="_blank" rel="noopener">GitHub ↗</a>
       </div>

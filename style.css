@@ -290,6 +290,17 @@ a {
   font-weight: 600;
 }
 
+.project-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
 /* Contact */
 .contact p {
   color: var(--muted);
@@ -302,6 +313,93 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+}
+
+/* Experience timeline */
+.timeline {
+  display: grid;
+  gap: 22px;
+}
+
+.exp,
+.edu-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 26px;
+  box-shadow: var(--shadow);
+}
+
+.exp-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 16px;
+  margin-bottom: 14px;
+}
+
+.exp-head h3 {
+  font-size: 1.15rem;
+}
+
+.period {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.exp-list {
+  list-style: none;
+  display: grid;
+  gap: 14px;
+}
+
+.exp-list li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.exp-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.exp-list strong {
+  color: var(--text);
+}
+
+/* Skill groups */
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.skill-group h4 {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+/* Education */
+.education {
+  display: grid;
+  gap: 18px;
+}
+
+.edu-card p {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 /* Footer */
